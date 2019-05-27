@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.sawsane.test</groupId>
+  <artifactId>kite-private-tests</artifactId>
+  <version>2.0.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>1.2.16</version>
+
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+    <dependency>
+      <groupId>org.quartz-scheduler</groupId>
+      <artifactId>quartz</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+
+  </dependencies>
+  <name>quartz-test</name>
+  <packaging>pom</packaging>
+
+  <properties>
+
+    <kite.log4j.version>1.2.17</kite.log4j.version>
+    <!-- Core dependencies -->
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- maven plugin versions, shouldn't need be changed very often -->
+
+  </properties>
+
+
+</project>
